@@ -1,0 +1,3 @@
+  bundle update
+  wget http://www.mirrorservice.org/sites/ftp.apache.org//archiva/binaries/apache-archiva-1.3.5-bin.tar.gz
+  bundle exec fpm -n archiva --architecture all -s tar -t deb apache-archiva-1.3.5-bin.tar.gz 
